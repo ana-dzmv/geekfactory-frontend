@@ -204,7 +204,7 @@
         list-style-type: none;
         display: inline-block;
         width: 100%;
-        float: left;
+        float: right;
     }
 
     .contact_info ul li
