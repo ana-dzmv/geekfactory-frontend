@@ -204,7 +204,7 @@
         list-style-type: none;
         display: inline-block;
         width: 100%;
-        
+        float: left;
     }
 
     .contact_info ul li
@@ -220,7 +220,7 @@
 
     .cont_txt
     {
-        width: 50%;
+        /*width: 50%;*/
         /*min-width: 260px;*/
         margin: 11px 0 0 0;
     }
