@@ -197,6 +197,7 @@
         list-style-type: none;
         text-align: right;
         width: 100%;
+        overflow: hidden;
     }
 
     .contact_info ul
@@ -209,8 +210,10 @@
 
     .contact_info ul li
     {
+        width: 100%;
         display: block;
         overflow: hidden;
+        float: right;
     }
 
     .cont_txt, .contact_info img
