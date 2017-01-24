@@ -97,6 +97,7 @@
         /*height: 200px;*/
         padding: 28px 0;
         border-bottom: 3px solid darkslategray;
+        overflow: hidden;
     }
 
 
