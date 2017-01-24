@@ -114,10 +114,11 @@
 
     #profile_photo
     {
-        /*max-width: 170px;*/
+        max-width: 170px;
         border: 8px solid darkslategray;
         border-radius: 100%;
         padding: 0;
+        margin: 10px auto;
     }
 
     .content
