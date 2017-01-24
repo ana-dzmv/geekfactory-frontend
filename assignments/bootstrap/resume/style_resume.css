@@ -192,6 +192,11 @@
         text-align: right;
     }
 
+    .p_date, .p_location
+    {
+        padding: 0;
+    }
+
     .l_lang, .l_interests
     {
         margin: 37px 0;
