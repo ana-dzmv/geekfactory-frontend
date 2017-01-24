@@ -33,20 +33,20 @@
     h1
     {
         font-size: 34px;
-        margin: 10px 0 0 0;
+        /*margin: 10px 0 0 0;*/
         font-weight: bold;
     }
 
     h2
     {
         font-size: 26px;
-        margin: 8px 0 14px 0;
+        /*margin: 8px 0 14px 0;*/
     }
 
     h3
     {
         font-size: 20px;
-        margin: 35px 0 2px 0;
+        /*margin: 35px 0 2px 0;*/
     }
 
     h2, h3
@@ -62,7 +62,7 @@
     h4
     {
         font-size: 19px;
-        margin-bottom: 14px;
+        /*margin-bottom: 14px;*/
     }
 
     h5
@@ -84,12 +84,12 @@
     ul li, ol li
     {
         font-size: 16px;
-        margin: 6px 18px;
+        /*margin: 6px 18px;*/
     }
 
     li p
     {
-        margin-left: 0px;
+        /*margin-left: 0px;*/
     }
 
     header
@@ -102,14 +102,14 @@
 
     .h_info
     {
-        margin-left: 20px;
+        /*margin-left: 20px;*/
     }
 
     .h_info h2
     {
         font-size: 20px;
         color: grey;
-        margin-top: 3px;
+        /*margin-top: 3px;*/
     }
 
     /*.headerC img
@@ -126,7 +126,7 @@
 
     .cont_section
     {
-        margin: 22px 0 40px 0;
+        /*margin: 22px 0 40px 0;*/
         height: 500px;
     }
 
@@ -141,13 +141,13 @@
 
     .cont_R
     {
-        margin: 2px 0 0 15px;
+        /*margin: 2px 0 0 15px;*/
     }
 
     #bookmark_top
     {
         background-color: teal;
-        margin: 10px 0;
+        /*margin: 10px 0;*/
     }
 
     .contact_info
@@ -170,7 +170,7 @@
 
     .cont_txt
     {
-        margin: 11px 0 0 0;
+        /*margin: 11px 0 0 0;*/
     }
 
     .logo
@@ -192,12 +192,12 @@
 
     .l_lang, .l_interests
     {
-        margin: 37px 0;
+        /*margin: 37px 0;*/
     }
 
     .l_lang li, .l_interests li
     {
-        margin: 6px 18px 12px 0;
+        /*margin: 6px 18px 12px 0;*/
         padding: 5px 15px;
         border-left: 3px solid black;
     }
@@ -214,7 +214,7 @@
 
     .skill h3
     {
-        margin: 20px 0;
+        /*margin: 20px 0;*/
     }
 
     .empty_bar
@@ -222,7 +222,7 @@
         /*min-width: 245px;*/
         height: 26px;
         border: 3px solid grey;
-        margin: 18px 0 18px 20%;
+        /*margin: 18px 0 18px 20%;*/
     }
 
     .fill_bar
@@ -254,7 +254,7 @@
     .proj_ach
     {
         font-size: 17px;
-        margin: 50px auto;
+        /*margin: 50px auto;*/
         font-family: Helvetica;
         font-style: normal;
     }
