@@ -40,7 +40,7 @@
     h2
     {
         font-size: 26px;
-        margin: 8px 0 14px 0;
+        margin: 20px 0 14px 0;
     }
 
     h3
@@ -57,6 +57,7 @@
     #degree
     {
         font-weight: normal;
+        margin-top: 8px;
     }
 
     h4
