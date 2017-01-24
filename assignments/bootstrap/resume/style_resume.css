@@ -1,0 +1,269 @@
+
+    *
+    {
+        padding: 0;
+        margin: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+    }
+
+    a
+    {
+        text-decoration: none;
+        color: black;
+    }
+
+    a:visited
+    {
+        color: black;
+    }
+
+    h1, h2, h3, h4, h5, h6, p
+    {
+        font-family: "Myriad Pro", Helvetica, Arial, "Times New Roman", sans-serif;
+    }
+
+    a, ul, ol
+    {
+        font-family: "Myriad Pro", Helvetica, Arial, "Times New Roman", sans-serif;
+        overflow: hidden;
+    }
+
+    h1
+    {
+        font-size: 34px;
+        margin: 10px 0 0 0;
+        font-weight: bold;
+    }
+
+    h2
+    {
+        font-size: 26px;
+        margin: 20px 0 14px 0;
+    }
+
+    h3
+    {
+        font-size: 20px;
+        margin: 35px 0 2px 0;
+    }
+
+    h2, h3
+    {
+        font-weight: bold;
+    }
+
+    #degree
+    {
+        font-weight: normal;
+        margin-top: 8px;
+    }
+
+    h4
+    {
+        font-size: 19px;
+        margin-bottom: 14px;
+    }
+
+    h5
+    {
+        font-size: 17px;
+    }
+
+    p
+    {
+        font-size: 14px;
+    }
+
+    h5, p
+    {
+        font-style: italic;
+        color: dimgrey
+    }
+
+    ul li, ol li
+    {
+        font-size: 16px;
+        margin: 6px 18px;
+    }
+
+    li p
+    {
+        margin-left: 0px;
+    }
+
+    header
+    {
+        /*height: 200px;*/
+        /*padding: 28px 0;*/
+        overflow: hidden;
+    }
+
+    #main_header
+    {
+        border-bottom: 3px solid darkslategray;
+    }
+
+    header .info h2
+    {
+        font-size: 20px;
+        color: grey;
+        margin-top: 3px;
+    }
+
+    #profile_photo
+    {
+        max-width: 170px;
+        border: 8px solid darkslategray;
+        border-radius: 100%;
+        padding: 0;
+        margin: 10px auto;
+    }
+
+    .content
+    {
+        padding: 35px 0;
+    }
+
+    .cont_section
+    {
+        margin: 22px 0 40px 0;
+        height: 650px;
+    }
+
+    .bookmark
+    {
+        background-color:darkslategray;
+        width: 38px;
+        height: 60px;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    .section_text
+    {
+        margin-left: 3%;
+        padding: 0;
+    }
+
+    #bookmark_top
+    {
+        background-color: teal;
+        margin: 10px 0;
+    }
+
+    .contact_info
+    {
+        list-style-type: none;
+        text-align: right;
+        overflow: hidden;
+    }
+
+    .contact_info ul
+    {
+        list-style-type: none;
+        display: inline-block;
+    }
+
+    .contact_info ul li
+    {
+        overflow: hidden;
+    }
+
+    .cont_txt
+    {
+        margin: 11px 0 0 0;
+    }
+
+    .logo
+    {
+        /*height: 25px;*/
+        margin: 7px 7px 7px 22px;
+    }
+
+
+    .date
+    {
+        text-align: left;
+    }
+
+    .location
+    {
+        text-align: right;
+    }
+
+    .date, .location
+    {
+        padding: 0;
+    }
+
+    .languages_list, .interests_list
+    {
+        margin: 37px 0;
+    }
+
+    .languages_list li, .interests_list li
+    {
+        margin: 6px 18px 12px 0;
+        padding: 5px 15px;
+        border-left: 3px solid black;
+    }
+
+    .skills_info ul li
+    {
+        overflow: hidden;
+    }
+
+    .skills_info ul
+    {
+        list-style-type: none;
+    }
+
+    .skill h3
+    {
+        margin: 20px 0;
+    }
+
+    .empty_bar
+    {
+        /*min-width: 245px;*/
+        height: 26px;
+        border: 3px solid grey;
+        margin: 18px 0 18px 0;
+        padding: 0;
+    }
+
+    .fill_bar
+    {
+        background-color: grey;
+        height: 20px;
+    }
+
+    #cpp
+    {
+        width: 75%;
+    }
+
+    #cs
+    {
+        width: 50%;
+    }
+
+    #html-css
+    {
+        width: 50%;
+    }
+
+    #oth_lang
+    {
+        width: 25%;
+    }
+
+    .projects_info
+    {
+        font-size: 17px;
+        margin: 50px auto;
+        font-family: Helvetica;
+        font-style: normal;
+    }
