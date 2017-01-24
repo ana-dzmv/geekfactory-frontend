@@ -141,7 +141,7 @@
         border-top-right-radius: 5px;
     }
 
-    .cont_R
+    .section_text
     {
         margin-left: 3%;
         padding: 0;
@@ -183,39 +183,39 @@
     }
 
 
-    .p_date
+    .date
     {
         text-align: left;
     }
 
-    .p_location
+    .location
     {
         text-align: right;
     }
 
-    .p_date, .p_location
+    .date, .location
     {
         padding: 0;
     }
 
-    .l_lang, .l_interests
+    .languages_list, .interests_list
     {
         margin: 37px 0;
     }
 
-    .l_lang li, .l_interests li
+    .languages_list li, .interests_list li
     {
         margin: 6px 18px 12px 0;
         padding: 5px 15px;
         border-left: 3px solid black;
     }
 
-    .sk_comp ul li
+    .skills_info ul li
     {
         overflow: hidden;
     }
 
-    .sk_comp ul
+    .skills_info ul
     {
         list-style-type: none;
     }
@@ -260,7 +260,7 @@
         width: 25%;
     }
 
-    .proj_ach
+    .projects_info
     {
         font-size: 17px;
         margin: 50px auto;
