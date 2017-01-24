@@ -109,9 +109,10 @@
 
     #profile_photo
     {
-        max-width: 170px;
+        /*max-width: 170px;*/
         border: 8px solid darkslategray;
         border-radius: 100%;
+        padding: 0;
     }
 
     .content
@@ -170,7 +171,7 @@
 
     .logo
     {
-        height: 25px;
+        /*height: 25px;*/
         margin: 7px 7px 7px 22px;
     }
 
