@@ -8,15 +8,6 @@
         font: inherit;
     }
 
-
-    body
-    {
-        /*width: 80%;*/
-        /*min-width:400px;*/
-        /*margin:5px auto;*/
-        /*border: 2px solid darkslategray;*/
-    }
-
     a
     {
         text-decoration: none;
@@ -101,23 +92,11 @@
         margin-left: 0px;
     }
 
-    .header, .content, .headerR, .headerC, .headerL, .h_info, .bookmark, .cont_section, .cont_R
-    {
-        float: left;
-    }
-
-    .contentR
-    {
-        float: right;
-    }
-
     .header
     {
-        width: 100%;
         /*height: 200px;*/
         padding: 28px 0;
         border-bottom: 3px solid darkslategray;
-        /*background-color: olivedrab;*/
     }
 
     .headerL, .headerC, .headerR
@@ -125,10 +104,6 @@
         height: 100%;
     }
 
-    .headerL, .headerR
-    {
-        width: 40%;
-    }
 
     .h_info
     {
@@ -142,37 +117,26 @@
         margin-top: 3px;
     }
 
-    .headerC
-    {
-        width: 20%;
-    }
-
     .headerC img
     {
-        /*width: 80%;*/
         max-width: 170px;
         border: 8px solid darkslategray;
         border-radius: 100%;
-        display: block;
-        margin: auto;
     }
 
     .content
     {
-        width: 100%;
         padding: 35px 0;
     }
 
     .cont_section
     {
-        width:50%;
         margin: 22px 0 40px 0;
         height: 500px;
     }
 
     .bookmark
     {
-        float: left;
         background-color:darkslategray;
         width: 38px;
         height: 60px;
@@ -183,7 +147,6 @@
     .cont_R
     {
         margin: 2px 0 0 15px;
-        width: 80%;
     }
 
     #bookmark_top
@@ -196,7 +159,6 @@
     {
         list-style-type: none;
         text-align: right;
-        width: 100%;
         overflow: hidden;
     }
 
@@ -204,27 +166,15 @@
     {
         list-style-type: none;
         display: inline-block;
-        width: 100%;
-        float: right;
     }
 
     .contact_info ul li
     {
-        width: 100%;
-        display: block;
         overflow: hidden;
-        float: right;
-    }
-
-    .cont_txt, .contact_info img
-    {
-        float: right;
     }
 
     .cont_txt
     {
-        /*width: 50%;*/
-        /*min-width: 260px;*/
         margin: 11px 0 0 0;
     }
 
@@ -234,21 +184,15 @@
         margin: 7px 7px 7px 22px;
     }
 
-    .p_date, .p_location
-    {
-        width: 50%;
-    }
 
     .p_date
     {
         text-align: left;
-        float: left;
     }
 
     .p_location
     {
         text-align: right;
-        float: right;
     }
 
     .l_lang, .l_interests
@@ -263,12 +207,6 @@
         border-left: 3px solid black;
     }
 
-
-    .empty_bar, .fill_bar, .skill
-    {
-        float: left;
-    }
-
     .sk_comp ul li
     {
         overflow: hidden;
@@ -277,11 +215,6 @@
     .sk_comp ul
     {
         list-style-type: none;
-    }
-
-    .skill
-    {
-        width: 10%;
     }
 
     .skill h3
@@ -295,7 +228,6 @@
         height: 26px;
         border: 3px solid grey;
         margin: 18px 0 18px 20%;
-        width: 65%;
     }
 
     .fill_bar
