@@ -260,18 +260,15 @@
     .languages, .interests
     {
         margin: 37px 0;
-    }
-
-    ul.languages, ul.interests
-    {
         width: 100%;
-    }
+        list-style-type: none;
 
-    .languages li, .interests li
-    {
-        margin: 6px 18px 12px 0;
-        padding: 5px 15px;
-        border-left: 3px solid black;
+        li
+        {
+          margin: 6px 18px 12px 0;
+          padding: 5px 15px;
+          border-left: 3px solid black;
+        }
     }
 
 
