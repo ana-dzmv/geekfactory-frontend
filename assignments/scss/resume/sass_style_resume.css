@@ -95,14 +95,13 @@ header {
 
 .photo {
   width: 20%; }
-
-.photo img {
-  width: 80%;
-  max-width: 170px;
-  border: 8px solid darkslategray;
-  border-radius: 100%;
-  display: block;
-  margin: auto; }
+  .photo img {
+    width: 80%;
+    max-width: 170px;
+    border: 8px solid darkslategray;
+    border-radius: 100%;
+    display: block;
+    margin: auto; }
 
 .content {
   width: 100%;
