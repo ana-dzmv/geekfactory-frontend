@@ -72,7 +72,8 @@ header {
   width: 100%;
   padding: 0;
   border-bottom: 3px solid darkslategray;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  list-style-type: none; }
   header .info {
     margin-left: 20px; }
     header .info h2 {
@@ -128,11 +129,9 @@ section {
   width: 80%; }
 
 .contact_info {
-  list-style-type: none;
   text-align: right; }
 
 .contact_info ul {
-  list-style-type: none;
   display: inline-block;
   width: 100%; }
 
@@ -177,13 +176,12 @@ ul.languages, ul.interests {
 .empty_bar, .fill_bar, .skill {
   float: left; }
 
-.skills_info ul li {
-  overflow: hidden;
-  width: 100%; }
-
 .skills_info ul {
   list-style-type: none;
   width: 100%; }
+  .skills_info ul li {
+    overflow: hidden;
+    width: 100%; }
 
 .skill {
   width: 10%; }

@@ -115,6 +115,7 @@
         padding: 0;
         border-bottom: 3px solid darkslategray;
         margin-bottom: 20px;
+        list-style-type: none;
         
         .info
         {
@@ -205,13 +206,11 @@
 
     .contact_info
     {
-        list-style-type: none;
         text-align: right;
     }
 
     .contact_info ul
     {
-        list-style-type: none;
         display: inline-block;
         width: 100%;
         
@@ -281,16 +280,20 @@
         float: left;
     }
 
-    .skills_info ul li
+    .skills_info
     {
-        overflow: hidden;
-        width: 100%;
-    }
-
-    .skills_info ul
-    {
+      ul
+      {
         list-style-type: none;
         width: 100%;
+
+        li
+        {
+          overflow: hidden;
+          width: 100%;
+        }
+
+      }
     }
 
     .skill
