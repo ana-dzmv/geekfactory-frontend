@@ -11,13 +11,10 @@ body {
   margin: 5px auto;
   border: 2px solid darkslategray; }
 
-a {
+a, a:visited {
   text-decoration: none;
   color: black;
   font-family: "Myriad Pro", Helvetica, Arial, "Times New Roman", sans-serif; }
-
-a:visited {
-  color: black; }
 
 h1, h2, h3, h4, h5, h6, p {
   font-family: "Myriad Pro", Helvetica, Arial, "Times New Roman", sans-serif; }
@@ -26,7 +23,8 @@ ul, ol {
   overflow: hidden; }
   ul li, ol li {
     font-size: 16px;
-    margin: 6px 18px; }
+    margin: 6px 18px;
+    font-family: "Myriad Pro", Helvetica, Arial, "Times New Roman", sans-serif; }
     ul li p, ol li p {
       margin-left: 0px; }
 
@@ -126,7 +124,8 @@ section {
   width: 80%; }
 
 .contact_info {
-  text-align: right; }
+  text-align: right;
+  font-family: "Myriad Pro", Helvetica, Arial, "Times New Roman", sans-serif; }
   .contact_info ul {
     display: inline-block;
     width: 100%; }

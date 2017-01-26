@@ -28,16 +28,11 @@
         border: 2px solid $border-color;
     }
 
-    a
+    a, a:visited
     {
         text-decoration: none;
         color: black;
         font-family: $default_font;
-    }
-
-    a:visited
-    {
-        color: black;
     }
 
     h1, h2, h3, h4, h5, h6, p
@@ -53,6 +48,7 @@
         {
           font-size: 16px;
           margin: 6px 18px;
+          font-family: $default_font;
 
           p
           {
@@ -213,6 +209,7 @@
     .contact_info
     {
         text-align: right;
+        font-family: $default_font;
 
         ul
         {
