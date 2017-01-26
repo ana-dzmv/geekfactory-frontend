@@ -1,0 +1,205 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit; }
+
+body {
+  width: 80%;
+  min-width: 400px;
+  margin: 5px auto;
+  border: 2px solid darkslategray; }
+
+a, a:visited {
+  text-decoration: none;
+  color: black;
+  font-family: "Myriad Pro", Helvetica, Arial, "Times New Roman", sans-serif; }
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: "Myriad Pro", Helvetica, Arial, "Times New Roman", sans-serif; }
+
+ul, ol {
+  overflow: hidden;
+  width: 100%; }
+  ul li, ol li {
+    font-size: 16px;
+    margin: 6px 18px;
+    font-family: "Myriad Pro", Helvetica, Arial, "Times New Roman", sans-serif; }
+    ul li p, ol li p {
+      margin-left: 0px; }
+
+h1 {
+  font-size: 34px;
+  margin: 10px 0 0 0;
+  font-weight: bold; }
+
+h2 {
+  font-size: 26px;
+  margin: 8px 0 14px 0; }
+
+h3 {
+  font-size: 20px;
+  margin: 35px 0 2px 0; }
+
+h2, h3 {
+  font-weight: bold; }
+
+h4 {
+  font-size: 19px;
+  margin-bottom: 14px; }
+
+h5 {
+  font-size: 17px; }
+
+p {
+  font-size: 14px; }
+
+h5, p {
+  font-style: italic;
+  color: dimgrey; }
+
+header, .content, .contact_info, .photo, .main_info, header .info, .bookmark, #bookmark_top, section, .section_text {
+  float: left; }
+
+.contentR {
+  float: right; }
+
+header {
+  width: 100%;
+  padding: 0;
+  border-bottom: 3px solid darkslategray;
+  margin-bottom: 20px;
+  list-style-type: none; }
+  header .info {
+    margin-left: 20px; }
+    header .info h2 {
+      font-size: 20px;
+      color: dimgrey; }
+
+#main_header {
+  margin-bottom: 0;
+  padding: 28px 0; }
+  #main_header h2 {
+    margin-top: 3px;
+    font-weight: normal; }
+
+.main_info, .photo, .contact_info {
+  height: 100%; }
+
+.main_info, .contact_info {
+  width: 40%; }
+
+.photo {
+  width: 20%; }
+  .photo img {
+    width: 80%;
+    max-width: 170px;
+    border: 8px solid darkslategray;
+    border-radius: 100%;
+    display: block;
+    margin: auto; }
+
+.content {
+  width: 100%;
+  padding: 35px 0; }
+
+section {
+  width: 50%;
+  margin: 22px 0 40px 0; }
+
+.bookmark, #bookmark_top {
+  float: left;
+  background-color: darkslategray;
+  width: 38px;
+  height: 60px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px; }
+
+#bookmark_top {
+  background-color: teal;
+  margin: 10px 0; }
+
+.section_text {
+  margin: 2px 0 0 15px;
+  width: 80%; }
+
+.contact_info {
+  text-align: right;
+  font-family: "Myriad Pro", Helvetica, Arial, "Times New Roman", sans-serif; }
+  .contact_info ul {
+    display: inline-block;
+    width: 100%; }
+    .contact_info ul li {
+      display: block;
+      overflow: hidden; }
+  .contact_info img {
+    float: right; }
+  .contact_info .contact_detail {
+    float: right;
+    width: 50%;
+    min-width: 260px;
+    margin: 11px 0 0 0; }
+
+.logo {
+  height: 25px;
+  margin: 7px 7px 7px 22px; }
+
+.date, .location {
+  width: 50%; }
+
+.date {
+  text-align: left;
+  float: left; }
+
+.location {
+  text-align: right;
+  float: right; }
+
+.languages, .interests {
+  margin: 37px 0;
+  width: 100%;
+  list-style-type: none; }
+  .languages li, .interests li {
+    margin: 6px 18px 12px 0;
+    padding: 5px 15px;
+    border-left: 3px solid black; }
+
+.empty_bar, .fill_bar, .skill {
+  float: left; }
+
+.skills_info ul {
+  list-style-type: none;
+  width: 100%; }
+  .skills_info ul li {
+    overflow: hidden;
+    width: 100%; }
+
+.skill {
+  width: 10%; }
+  .skill h3 {
+    margin: 20px 0; }
+
+.empty_bar {
+  height: 20px;
+  border: 3px solid dimgrey;
+  margin: 18px 0 18px 10%;
+  width: 65%; }
+
+.fill_bar {
+  background-color: dimgrey;
+  height: 20px; }
+
+#cpp {
+  width: 75%; }
+
+#cs {
+  width: 50%; }
+
+#html-css {
+  width: 50%; }
+
+#oth_lang {
+  width: 25%; }
+
+/*# sourceMappingURL=sass_style_resume.css.map */
