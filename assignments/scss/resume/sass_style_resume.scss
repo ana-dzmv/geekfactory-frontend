@@ -202,36 +202,35 @@
         width: 80%;
     }
 
-    
-
     .contact_info
     {
         text-align: right;
-    }
 
-    .contact_info ul
-    {
-        display: inline-block;
-        width: 100%;
-        
-    }
+        ul
+        {
+          display: inline-block;
+          width: 100%;
 
-    .contact_info ul li
-    {
-        display: block;
-        overflow: hidden;
-    }
+          li
+          {
+            display: block;
+            overflow: hidden;
+          }
+        }
 
-    .contact_detail, .contact_info img
-    {
-        float: right;
-    }
+        img
+        {
+          float: right;
+        }
 
-    .contact_detail
-    {
-        width: 50%;
-        min-width: 260px;
-        margin: 11px 0 0 0;
+        .contact_detail
+        {
+          float: right;
+          width: 50%;
+          min-width: 260px;
+          margin: 11px 0 0 0;
+        }
+
     }
 
     .logo
