@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA;;;;;;;;;;;;;;;;;;EAkBE;AACF,WAAY;EACV,WAAW,EAAE,GAAG;EAChB,WAAW,EAAE,SAAS;EACtB,OAAO,EAAE,qEAAqE",
+"mappings": "AAEA,IACA;EACE,KAAK,EAJK,IAAI",
 "sources": ["sass_style_resume.scss"],
 "names": [],
 "file": "sass_style_resume.css"
