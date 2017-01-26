@@ -62,7 +62,7 @@ ul li, ol li {
 li p {
   margin-left: 0px; }
 
-header, .content, .contact_info, .photo, .main_info, header .info, .bookmark, section, .section_text {
+header, .content, .contact_info, .photo, .main_info, header .info, .bookmark, #bookmark_top, section, .section_text {
   float: left; }
 
 .contentR {
@@ -111,7 +111,7 @@ section {
   width: 50%;
   margin: 22px 0 40px 0; }
 
-.bookmark {
+.bookmark, #bookmark_top {
   float: left;
   background-color: darkslategray;
   width: 38px;
@@ -119,13 +119,13 @@ section {
   border-bottom-right-radius: 5px;
   border-top-right-radius: 5px; }
 
-.section_text {
-  margin: 2px 0 0 15px;
-  width: 80%; }
-
 #bookmark_top {
   background-color: teal;
   margin: 10px 0; }
+
+.section_text {
+  margin: 2px 0 0 15px;
+  width: 80%; }
 
 .contact_info {
   list-style-type: none;

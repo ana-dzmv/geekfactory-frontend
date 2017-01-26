@@ -188,17 +188,20 @@
         border-top-right-radius: 5px;
     }
 
+    #bookmark_top
+    {
+        @extend .bookmark;
+        background-color: teal;
+        margin: 10px 0;
+    }
+
     .section_text
     {
         margin: 2px 0 0 15px;
         width: 80%;
     }
 
-    #bookmark_top
-    {
-        background-color: teal;
-        margin: 10px 0;
-    }
+    
 
     .contact_info
     {
