@@ -13,7 +13,8 @@ body {
 
 a {
   text-decoration: none;
-  color: black; }
+  color: black;
+  font-family: "Myriad Pro", Helvetica, Arial, "Times New Roman", sans-serif; }
 
 a:visited {
   color: black; }
@@ -21,9 +22,13 @@ a:visited {
 h1, h2, h3, h4, h5, h6, p {
   font-family: "Myriad Pro", Helvetica, Arial, "Times New Roman", sans-serif; }
 
-a, ul, ol {
-  font-family: "Myriad Pro", Helvetica, Arial, "Times New Roman", sans-serif;
+ul, ol {
   overflow: hidden; }
+  ul li, ol li {
+    font-size: 16px;
+    margin: 6px 18px; }
+    ul li p, ol li p {
+      margin-left: 0px; }
 
 h1 {
   font-size: 34px;
@@ -54,13 +59,6 @@ p {
 h5, p {
   font-style: italic;
   color: dimgrey; }
-
-ul li, ol li {
-  font-size: 16px;
-  margin: 6px 18px; }
-
-li p {
-  margin-left: 0px; }
 
 header, .content, .contact_info, .photo, .main_info, header .info, .bookmark, #bookmark_top, section, .section_text {
   float: left; }
@@ -179,9 +177,8 @@ section {
 
 .skill {
   width: 10%; }
-
-.skill h3 {
-  margin: 20px 0; }
+  .skill h3 {
+    margin: 20px 0; }
 
 .empty_bar {
   height: 20px;

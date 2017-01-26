@@ -24,6 +24,7 @@
     {
         text-decoration: none;
         color: black;
+        font-family: $font;
     }
 
     a:visited
@@ -36,10 +37,20 @@
         font-family: $font;
     }
 
-    a, ul, ol
+    ul, ol
     {
-        font-family: $font;
         overflow: hidden;
+
+        li
+        {
+          font-size: 16px;
+          margin: 6px 18px;
+
+          p
+          {
+            margin-left: 0px;
+          }
+        }
     }
 
     h1
@@ -86,17 +97,6 @@
     {
         font-style: italic;
         color: dimgrey
-    }
-
-    ul li, ol li
-    {
-        font-size: 16px;
-        margin: 6px 18px;
-    }
-
-    li p
-    {
-        margin-left: 0px;
     }
 
     header, .content, .contact_info, .photo, .main_info, header .info, .bookmark, section, .section_text
@@ -166,7 +166,7 @@
           margin: auto;
         }
     }
-    
+
     .content
     {
         width: 100%;
@@ -295,11 +295,11 @@
     .skill
     {
         width: 10%;
-    }
 
-    .skill h3
-    {
-        margin: 20px 0;
+        h3
+        {
+          margin: 20px 0;
+        }
     }
 
     .empty_bar
