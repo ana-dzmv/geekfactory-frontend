@@ -1,5 +1,13 @@
 
-    $font: "Myriad Pro", Helvetica, Arial, "Times New Roman", sans-serif;
+    // Font
+    $default_font: "Myriad Pro", Helvetica, Arial, "Times New Roman", sans-serif;
+
+    // Color Scheme
+    $top_bookmark-color: teal;
+    $bookmark-color: darkslategray;
+    $secondary_text-color: dimgrey;
+    $border-color: darkslategray;
+    $photo_border-color: darkslategray;
 
 
     *
@@ -17,14 +25,14 @@
         width: 80%;
         min-width:400px;
         margin:5px auto;
-        border: 2px solid darkslategray;
+        border: 2px solid $border-color;
     }
 
     a
     {
         text-decoration: none;
         color: black;
-        font-family: $font;
+        font-family: $default_font;
     }
 
     a:visited
@@ -34,7 +42,7 @@
 
     h1, h2, h3, h4, h5, h6, p
     {
-        font-family: $font;
+        font-family: $default_font;
     }
 
     ul, ol
@@ -96,7 +104,7 @@
     h5, p
     {
         font-style: italic;
-        color: dimgrey
+        color: $secondary_text-color;
     }
 
     header, .content, .contact_info, .photo, .main_info, header .info, .bookmark, section, .section_text
@@ -113,7 +121,7 @@
     {
         width: 100%;
         padding: 0;
-        border-bottom: 3px solid darkslategray;
+        border-bottom: 3px solid $border-color;
         margin-bottom: 20px;
         list-style-type: none;
         
@@ -123,7 +131,7 @@
           h2
           {
             font-size: 20px;
-            color: grey;
+            color: $secondary_text-color;
           }
         }
 
@@ -160,7 +168,7 @@
         {
           width: 80%;
           max-width: 170px;
-          border: 8px solid darkslategray;
+          border: 8px solid $photo_border-color;
           border-radius: 100%;
           display: block;
           margin: auto;
@@ -182,7 +190,7 @@
     .bookmark
     {
         float: left;
-        background-color:darkslategray;
+        background-color:$bookmark-color;
         width: 38px;
         height: 60px;
         border-bottom-right-radius: 5px;
@@ -192,7 +200,7 @@
     #bookmark_top
     {
         @extend .bookmark;
-        background-color: teal;
+        background-color: $top_bookmark-color;
         margin: 10px 0;
     }
 
@@ -305,14 +313,14 @@
     .empty_bar
     {
         height: 20px;
-        border: 3px solid grey;
+        border: 3px solid $secondary_text-color;
         margin: 18px 0 18px 10%;
         width: 65%;
     }
 
     .fill_bar
     {
-        background-color: grey;
+        background-color: $secondary_text-color;
         height: 20px;
     }
 
