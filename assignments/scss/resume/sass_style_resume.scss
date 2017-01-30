@@ -1,0 +1,343 @@
+
+    // Font
+    $default_font: "Myriad Pro", Helvetica, Arial, "Times New Roman", sans-serif;
+
+    // Color Scheme
+    $top_bookmark-color: teal;
+    $bookmark-color: darkslategray;
+    $secondary_text-color: dimgrey;
+    $border-color: darkslategray;
+    $photo_border-color: darkslategray;
+
+
+    *
+    {
+        padding: 0;
+        margin: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+    }
+
+
+    body
+    {
+        width: 80%;
+        min-width:400px;
+        margin:5px auto;
+        border: 2px solid $border-color;
+    }
+
+    a, a:visited
+    {
+        text-decoration: none;
+        color: black;
+        font-family: $default_font;
+    }
+
+    h1, h2, h3, h4, h5, h6, p
+    {
+        font-family: $default_font;
+    }
+
+    ul, ol
+    {
+        overflow: hidden;
+        width: 100%;
+
+        li
+        {
+          font-size: 16px;
+          margin: 6px 18px;
+          font-family: $default_font;
+
+          p
+          {
+            margin-left: 0px;
+          }
+        }
+    }
+
+    h1
+    {
+        font-size: 34px;
+        margin: 10px 0 0 0;
+        font-weight: bold;
+    }
+
+    h2
+    {
+        font-size: 26px;
+        margin: 8px 0 14px 0;
+    }
+
+    h3
+    {
+        font-size: 20px;
+        margin: 35px 0 2px 0;
+    }
+
+    h2, h3
+    {
+        font-weight: bold;
+    }
+
+    h4
+    {
+        font-size: 19px;
+        margin-bottom: 14px;
+    }
+
+    h5
+    {
+        font-size: 17px;
+    }
+
+    p
+    {
+        font-size: 14px;
+    }
+
+    h5, p
+    {
+        font-style: italic;
+        color: $secondary_text-color;
+    }
+
+    header, .content, .contact_info, .photo, .main_info, header .info, .bookmark, section, .section_text
+    {
+        float: left;
+    }
+
+    .contentR
+    {
+        float: right;
+    }
+
+    header
+    {
+        width: 100%;
+        padding: 0;
+        border-bottom: 3px solid $border-color;
+        margin-bottom: 20px;
+        list-style-type: none;
+        
+        .info
+        {
+          margin-left: 20px;
+          h2
+          {
+            font-size: 20px;
+            color: $secondary_text-color;
+          }
+        }
+
+    }
+
+
+    #main_header
+    {
+        margin-bottom: 0;
+        padding: 28px 0;
+
+        h2
+        {
+          margin-top: 3px;
+          font-weight: normal;
+        }
+    }
+
+    .main_info, .photo, .contact_info
+    {
+        height: 100%;
+    }
+
+    .main_info, .contact_info
+    {
+        width: 40%;
+    }
+
+    .photo
+    {
+        width: 20%;
+
+        img
+        {
+          width: 80%;
+          max-width: 170px;
+          border: 8px solid $photo_border-color;
+          border-radius: 100%;
+          display: block;
+          margin: auto;
+        }
+    }
+
+    .content
+    {
+        width: 100%;
+        padding: 35px 0;
+    }
+
+    section
+    {
+        width:50%;
+        margin: 22px 0 40px 0;
+    }
+
+    .bookmark
+    {
+        float: left;
+        background-color:$bookmark-color;
+        width: 38px;
+        height: 60px;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    #bookmark_top
+    {
+        @extend .bookmark;
+        background-color: $top_bookmark-color;
+        margin: 10px 0;
+    }
+
+    .section_text
+    {
+        margin: 2px 0 0 15px;
+        width: 80%;
+    }
+
+    .contact_info
+    {
+        text-align: right;
+        font-family: $default_font;
+
+        ul
+        {
+          display: inline-block;
+          width: 100%;
+
+          li
+          {
+            display: block;
+            overflow: hidden;
+          }
+        }
+
+        img
+        {
+          float: right;
+        }
+
+        .contact_detail
+        {
+          float: right;
+          width: 50%;
+          min-width: 260px;
+          margin: 11px 0 0 0;
+        }
+
+    }
+
+    .logo
+    {
+        height: 25px;
+        margin: 7px 7px 7px 22px;
+    }
+
+    .date, .location
+    {
+        width: 50%;
+    }
+
+    .date
+    {
+        text-align: left;
+        float: left;
+    }
+
+    .location
+    {
+        text-align: right;
+        float: right;
+    }
+
+    .languages, .interests
+    {
+        margin: 37px 0;
+        width: 100%;
+        list-style-type: none;
+
+        li
+        {
+          margin: 6px 18px 12px 0;
+          padding: 5px 15px;
+          border-left: 3px solid black;
+        }
+    }
+
+
+    .empty_bar, .fill_bar, .skill
+    {
+        float: left;
+    }
+
+    .skills_info
+    {
+      ul
+      {
+        list-style-type: none;
+        width: 100%;
+
+        li
+        {
+          overflow: hidden;
+          width: 100%;
+        }
+
+      }
+    }
+
+    .skill
+    {
+        width: 10%;
+
+        h3
+        {
+          margin: 20px 0;
+        }
+    }
+
+    .empty_bar
+    {
+        height: 20px;
+        border: 3px solid $secondary_text-color;
+        margin: 18px 0 18px 10%;
+        width: 65%;
+    }
+
+    .fill_bar
+    {
+        background-color: $secondary_text-color;
+        height: 20px;
+    }
+
+    #cpp
+    {
+        width: 75%;
+    }
+
+    #cs
+    {
+        width: 50%;
+    }
+
+    #html-css
+    {
+        width: 50%;
+    }
+
+    #oth_lang
+    {
+        width: 25%;
+    }
