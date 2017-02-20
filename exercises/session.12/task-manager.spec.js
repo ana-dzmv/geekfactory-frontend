@@ -52,7 +52,7 @@ describe('taskManager', function () {
             var task = manager.create('work', 'Code Review', 1, 1.5);
             assert(task === manager.find('work')[0]);
         });
-        
+
         it('should not find added task if title and category do not match', function () {
             var manager = taskManager.create();
             var task = manager.create('work', 'Code Review', 1, 1.5);
@@ -67,7 +67,7 @@ describe('taskManager', function () {
             manager.remove(0);
             assert.equal(0, manager.getAll().length);
         });
-        
+
         it('should remove added task by reference', function () {
             var manager = taskManager.create();
             var task = manager.create('work', 'Code Review', 1, 1.5);
